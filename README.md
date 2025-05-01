@@ -33,5 +33,5 @@ classDiagram
   User --> Account
   User --> Feature
   User --> Card
-  User --> News
+  User --> NewsItem
 ```
