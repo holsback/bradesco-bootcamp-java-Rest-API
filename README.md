@@ -30,8 +30,8 @@ classDiagram
     -icon: string
     -description: string
   }
-  User --> Account
-  User --> Feature
-  User --> Card
-  User --> NewsItem
+  User *-- Account
+  User *-- Feature
+  User *-- Card
+  User *-- NewsItem
 ```
